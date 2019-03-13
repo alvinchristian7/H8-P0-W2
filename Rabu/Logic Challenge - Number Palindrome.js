@@ -1,8 +1,9 @@
 function angkaPalindrome(num) {
     // you can only write your code here!
-    var balik = [];
+    var balik;
     var inc = num;
-    
+    var i;
+
     while(true) {
         inc++;
         i = inc.toString().length-1;
