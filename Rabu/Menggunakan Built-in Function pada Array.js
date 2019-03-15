@@ -3,6 +3,7 @@ function dataHandling2(input) {
     var bulan;
     input[1] += " Elsharawy";
     input[2] = "Provinsi " + input[2];
+    input.splice(-1, 1, "Pria", "SMA Internasional Metro");
     console.log(input);
     var tanggal = input[3].split("/");
     switch(Number(tanggal[1])) {
